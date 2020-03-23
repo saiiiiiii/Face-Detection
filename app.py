@@ -10,7 +10,6 @@ def load_image(img):
 	im = Image.open(img)
 	return im
 
-
 face_cascade = cv2.CascadeClassifier('frecog/haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('frecog/haarcascade_eye.xml')
 smile_cascade = cv2.CascadeClassifier('frecog/haarcascade_smile.xml')
